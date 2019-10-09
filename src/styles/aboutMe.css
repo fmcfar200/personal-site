@@ -1,0 +1,46 @@
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 8px;
+  height: 100vh;
+  max-height: 100vh;
+}
+
+.headshot-image {
+  justify-self: center;
+  align-self: center;
+  width: 32vmin;
+  height: auto;
+  border-radius: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.about-header {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.about-header h3 {
+  overflow: hidden;
+  color: white;
+}
+
+.line {
+  border-top: 1.25px solid white;
+  flex-grow: 1;
+  margin: 0 10px;
+}
+
+.info-container {
+  justify-self: center;
+  align-self: center;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.info-container p {
+  color: white;
+  text-align: start;
+}
