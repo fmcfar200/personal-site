@@ -9,22 +9,11 @@
 .headshot-image {
   justify-self: center;
   align-self: center;
-  width: 32vmin;
+  width: 250px;
   height: auto;
   border-radius: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-}
-
-.about-header {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-}
-
-.about-header h3 {
-  overflow: hidden;
-  color: white;
 }
 
 .line {
@@ -36,6 +25,8 @@
 .info-container {
   justify-self: center;
   align-self: center;
+  width: 400px;
+  max-height: 400px;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }

@@ -1,0 +1,46 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  max-height: 100vh;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  align-content: center;
+  width: 100%;
+  height: 300px;
+}
+
+.project-container img {
+  width: 400px;
+  height: 200px;
+  max-height: 500px;
+  align-self: center;
+}
+
+.text-container {
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.right {
+  text-align: right;
+  transform: translateX(-10%);
+}
+
+.left {
+  text-align: left;
+  transform: translateX(10%);
+}
+
+.text-container h2 {
+  margin-top: 0;
+}
+
+.text-container p {
+  background-color: teal;
+  padding: 16px;
+  border-radius: 2.5%;
+}

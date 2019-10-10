@@ -1,0 +1,15 @@
+.sub-header {
+  display: flex;
+  align-items: center;
+}
+
+.sub-header h3 {
+  overflow: hidden;
+  color: white;
+}
+
+.line {
+  border-top: 1.25px solid white;
+  flex-grow: 1;
+  margin: 0 10px;
+}

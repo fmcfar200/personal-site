@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/common.css";
 import "../styles/aboutMe.css";
 
 const AboutMe = () => {
@@ -6,8 +7,8 @@ const AboutMe = () => {
     <div className="about-container">
       <img className="headshot-image" src="headshot.jpg" alt="headshot"></img>
       <div className="info-container">
-        <div className="about-header">
-          <h3>About Me</h3>
+        <div className="sub-header">
+          <h3>01. About Me</h3>
           <div className="line"></div>
         </div>
         <p>
