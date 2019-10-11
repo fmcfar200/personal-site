@@ -1,13 +1,15 @@
 import React from "react";
 import AboutMe from "./components/aboutMe";
-import "./App.css";
 import MyProjects from "./components/myProjects";
+import "./App.css";
+import OtherProjects from "./components/otherProjects";
 
 function App() {
   return (
     <main className="App">
       {/* <AboutMe /> */}
-      <MyProjects />
+      {/* <MyProjects /> */}
+      <OtherProjects />
     </main>
   );
 }
