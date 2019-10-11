@@ -15,7 +15,11 @@ const MyProjects = () => {
             project overflows behind a company. The hearing aspect absents the
             fiddling whale. How will the trial fool key the star?
           </p>
-          <label>React.js, Spotify API</label>
+          <div className="code-label-container">
+            <label>React.js</label>
+            <label>Node.js</label>
+            <label>Spotify Web API</label>
+          </div>
         </div>
       </div>
     );
