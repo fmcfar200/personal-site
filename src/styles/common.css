@@ -1,11 +1,15 @@
-.sub-header {
+.heading {
   display: flex;
   align-items: center;
 }
 
-.sub-header h3 {
+.heading h3 {
   overflow: hidden;
   color: white;
+}
+
+.heading h3 span {
+  color: var(--other-color2);
 }
 
 .line {

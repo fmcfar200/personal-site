@@ -7,9 +7,9 @@ import OtherProjects from "./components/otherProjects";
 function App() {
   return (
     <main className="App">
-      {/* <AboutMe /> */}
+      <AboutMe />
       <MyProjects />
-      {/* <OtherProjects /> */}
+      <OtherProjects />
     </main>
   );
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/common.css";
 import "../styles/myProjects.css";
+import Heading from "./heading";
 
 const MyProjects = () => {
   function getData() {
@@ -38,10 +39,7 @@ const MyProjects = () => {
 
   return (
     <div className="container">
-      <div className="sub-header" style={{ width: "75%" }}>
-        <h3>02. Software I've Made</h3>
-        <div className="line"></div>
-      </div>
+      <Heading number="02" title="Software I've Made" />
       {projectItems}
     </div>
   );

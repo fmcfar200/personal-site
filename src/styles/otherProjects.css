@@ -3,6 +3,9 @@
   grid-template-columns: repeat(3, 1fr);
   row-gap: 16px;
   column-gap: 16px;
+
+  align-items: center;
+
   color: white;
   text-align: start;
   word-wrap: break-word;
@@ -14,9 +17,12 @@
   width: 250px;
   height: 300px;
 
+  align-self: center;
+  justify-self: center;
+
   padding: 16px;
   border-radius: 10px;
-  background-color: lightslategrey;
+  background-color: var(--secondary-color);
 }
 
 .other-project-container i {
@@ -45,4 +51,9 @@
 
 .link-container i {
   font-size: 24px;
+}
+
+.link-container i:hover {
+  color: var(--other-color2);
+  cursor: pointer;
 }

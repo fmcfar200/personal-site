@@ -3,7 +3,16 @@
   min-height: 100vh;
 
   text-align: center;
-  background-color: #282c34;
+  background-color: var(--tertiary-color);
 
   padding: 80px;
+}
+
+:root {
+  --main-color: rgba(117, 221, 221, 1);
+  --secondary-color: rgba(80, 137, 145, 1);
+  --tertiary-color: rgba(23, 42, 58, 1);
+
+  --other-color: rgba(0, 67, 70, 1);
+  --other-color2: rgba(9, 188, 138, 1);
 }
