@@ -8,8 +8,8 @@ function App() {
   return (
     <main className="App">
       {/* <AboutMe /> */}
-      {/* <MyProjects /> */}
-      <OtherProjects />
+      <MyProjects />
+      {/* <OtherProjects /> */}
     </main>
   );
 }

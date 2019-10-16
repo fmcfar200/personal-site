@@ -3,23 +3,34 @@ import "../styles/common.css";
 import "../styles/myProjects.css";
 
 const MyProjects = () => {
-  function renderProjectRight() {
+  function getData() {
+    var obj = require("../my-projects.json");
+    return JSON.parse(JSON.stringify(obj));
+  }
+
+  var projectData = getData();
+  const projectItems = projectData.map(item => {
+    return renderProjectRight(
+      item.title,
+      item.desc,
+      item.imageSrc,
+      item.codeArray
+    );
+  });
+
+  function renderProjectRight(title, desc, imageSrc, codeArray) {
+    var theCodeArray = codeArray.reverse();
+    const codeLabels = theCodeArray.map(item => {
+      return <label>{item}</label>;
+    });
+
     return (
       <div className="project-container">
-        <img src="myfy-screenshot.png" />
+        <img src={imageSrc} />
         <div className="text-container right">
-          <h2>My-Fy</h2>
-          <p>
-            The diesel advises the encouraged reporter within the appendix. My
-            servant influences the sensible consultant into the economy. A
-            project overflows behind a company. The hearing aspect absents the
-            fiddling whale. How will the trial fool key the star?
-          </p>
-          <div className="code-label-container">
-            <label>React.js</label>
-            <label>Node.js</label>
-            <label>Spotify Web API</label>
-          </div>
+          <h2>{title}</h2>
+          <p>{desc}</p>
+          <div className="code-label-container">{codeLabels}</div>
         </div>
       </div>
     );
@@ -31,7 +42,7 @@ const MyProjects = () => {
         <h3>02. Software I've Made</h3>
         <div className="line"></div>
       </div>
-      {renderProjectRight()}
+      {projectItems}
     </div>
   );
 };
