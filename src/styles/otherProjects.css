@@ -25,6 +25,10 @@
   background-color: var(--secondary-color);
 }
 
+.other-project-container:hover {
+  transform: translateY(-2%);
+}
+
 .other-project-container i {
   font-size: 54px;
 }
