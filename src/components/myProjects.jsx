@@ -38,7 +38,7 @@ const MyProjects = () => {
   }
 
   return (
-    <div className="container">
+    <div id="my_projects_section" className="container">
       <Heading number="02" title="Software I've Made" />
       {projectItems}
     </div>

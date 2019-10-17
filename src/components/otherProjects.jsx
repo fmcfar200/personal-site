@@ -12,7 +12,7 @@ const OtherProjects = () => {
   var myData = getData();
   const projectCards = myData.map(item => {
     return (
-      <div className="other-project-container">
+      <div id="other_projects_section" className="other-project-container">
         <div
           style={{
             display: "flex",

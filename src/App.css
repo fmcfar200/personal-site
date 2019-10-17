@@ -16,3 +16,7 @@
   --other-color: rgba(0, 67, 70, 1);
   --other-color2: rgba(9, 188, 138, 1);
 }
+
+html {
+  scroll-behavior: smooth;
+}
