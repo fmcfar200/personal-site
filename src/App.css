@@ -17,6 +17,7 @@
 }
 
 .header .header-text-1 {
+  font-size: 18px;
   font-weight: bold;
   color: var(--main-color);
 }
