@@ -8,9 +8,7 @@ import NavBar from "./components/navbar";
 function App() {
   return (
     <React.Fragment>
-      <header>
-        <NavBar />
-      </header>
+      <NavBar />
       <main className="App">
         <AboutMe />
         <MyProjects />
