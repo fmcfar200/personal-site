@@ -7,6 +7,11 @@ const NavBar = () => {
       <ul>
         <li>
           <a href="#other_projects_section">
+            <span>04. </span>Contact
+          </a>
+        </li>
+        <li>
+          <a href="#other_projects_section">
             <span>03. </span>Other Work
           </a>
         </li>
