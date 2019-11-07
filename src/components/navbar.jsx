@@ -21,7 +21,7 @@ const NavBar = () => {
           </a>
         </li>
         <li>
-          <a class="active" href="#about_me_section">
+          <a className="active" href="#about_me_section">
             <span>01. </span>About Me
           </a>
         </li>

@@ -15,7 +15,7 @@ function App() {
           I create software for the web, mobile devices and sometimes games
         </p>
         <p className="header-text-4">
-          I am a software developer based in Glasgow, Scotland currently focused
+          I am a Software Developer based in Glasgow, Scotland currently focused
           on developing mobile/web applications.
         </p>
       </div>

@@ -22,7 +22,7 @@ const MyProjects = () => {
   function renderProjectRight(title, desc, imageSrc, codeArray) {
     var theCodeArray = codeArray.reverse();
     const codeLabels = theCodeArray.map(item => {
-      return <label>{item}</label>;
+      return <label key={codeArray.indexOf(item)}>{item}</label>;
     });
 
     return (

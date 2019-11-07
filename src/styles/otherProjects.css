@@ -1,7 +1,7 @@
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  row-gap: 16px;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 32px;
   column-gap: 16px;
 
   align-items: center;
@@ -14,7 +14,7 @@
 .other-project-container {
   position: relative;
   display: block;
-  width: 250px;
+  width: 75%;
   height: 300px;
 
   align-self: center;
@@ -60,4 +60,26 @@
 .link-container i:hover {
   color: var(--other-color2);
   cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 16px;
+  }
+
+  .other-project-container {
+    width: 250px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .projects-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (min-width: 1275px) {
+  .projects-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
