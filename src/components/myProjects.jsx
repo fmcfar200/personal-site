@@ -2,7 +2,7 @@ import React from "react";
 import Heading from "./heading";
 import "../styles/common.css";
 import "../styles/myProjects.css";
-import "../styles/myProjectsSmall.css";
+// import "../styles/myProjectsSmall.css";
 
 const MyProjects = () => {
   function getData() {
@@ -12,7 +12,7 @@ const MyProjects = () => {
 
   var projectData = getData();
   const projectItems = projectData.map(item => {
-    return renderProjectSmall(
+    return renderProjectRight(
       item.title,
       item.desc,
       item.imageSrc,

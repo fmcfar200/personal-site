@@ -36,3 +36,6 @@ li a:hover {
 .active {
   border-bottom: 2px solid var(--other-color2);
 }
+
+@media only screen and (min-width: 768px) {
+}
