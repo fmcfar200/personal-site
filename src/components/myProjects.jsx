@@ -1,7 +1,8 @@
 import React from "react";
+import Heading from "./heading";
 import "../styles/common.css";
 import "../styles/myProjects.css";
-import Heading from "./heading";
+import "../styles/myProjectsSmall.css";
 
 const MyProjects = () => {
   function getData() {
@@ -11,7 +12,7 @@ const MyProjects = () => {
 
   var projectData = getData();
   const projectItems = projectData.map(item => {
-    return renderProjectRight(
+    return renderProjectSmall(
       item.title,
       item.desc,
       item.imageSrc,
@@ -32,6 +33,22 @@ const MyProjects = () => {
           <h2>{title}</h2>
           <p>{desc}</p>
           <div className="code-label-container">{codeLabels}</div>
+        </div>
+      </div>
+    );
+  }
+
+  function renderProjectSmall(title, desc, imageSrc, codeArray) {
+    var theCodeArray = codeArray.reverse();
+    const codeLabels = theCodeArray.map(item => {
+      return <label key={codeArray.indexOf(item)}>{item}</label>;
+    });
+
+    return (
+      <div className="project-container-small">
+        <img src={imageSrc} alt="Screenshot" class="image" />
+        <div className="overlay">
+          <div className="text">{desc}</div>
         </div>
       </div>
     );
