@@ -26,8 +26,6 @@
   flex-direction: column;
   justify-self: center;
   align-self: flex-start;
-  width: 400px;
-  max-height: 400px;
 }
 
 .info-container p {
