@@ -29,6 +29,7 @@ const MyProjects = () => {
     return (
       <div className="project-container">
         <img src={imageSrc} />
+        <div className="image-filter"></div>
         <div className="text-container right">
           <h2>{title}</h2>
           <p>{desc}</p>
