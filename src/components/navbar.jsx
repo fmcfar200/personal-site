@@ -1,10 +1,19 @@
 import React from "react";
+import Scrollspy from "react-scrollspy";
 import "../styles/navbar.css";
 
 const NavBar = () => {
   return (
     <div className="nav-container largeScreen">
-      <ul>
+      <Scrollspy
+        items={[
+          "other_projects_section",
+          "other_projects_section",
+          "my_projects_section",
+          "about_me_section"
+        ]}
+        currentClassName="active"
+      >
         <li>
           <a href="#other_projects_section">
             <span>04. </span>Contact
@@ -21,11 +30,11 @@ const NavBar = () => {
           </a>
         </li>
         <li>
-          <a className="active" href="#about_me_section">
+          <a href="#about_me_section">
             <span>01. </span>About Me
           </a>
         </li>
-      </ul>
+      </Scrollspy>
     </div>
   );
 };
