@@ -25,9 +25,15 @@ const MobileNavbar = () => {
           <a href="#about_me_section" onClick={() => closeNav()}>
             About Me
           </a>
-          <a href="#my_projects_section">My Projects</a>
-          <a href="#other_projects_section">Other Work</a>
-          <a href="#">Contact Me</a>
+          <a href="#my_projects_section" onClick={() => closeNav()}>
+            My Projects
+          </a>
+          <a href="#other_projects_section" onClick={() => closeNav()}>
+            Other Work
+          </a>
+          <a href="#" onClick={() => closeNav()}>
+            Contact Me
+          </a>
         </div>
       </div>
 
