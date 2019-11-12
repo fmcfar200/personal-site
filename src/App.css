@@ -15,7 +15,7 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   display: block;
   height: 50vh;
-  padding: 40px;
+  padding: 40px 20px 40px 20px;
   background-color: var(--other-color);
 }
 
@@ -67,7 +67,7 @@ html {
   }
 
   .header {
-    padding: 80px;
+    padding: 20px;
     height: 50vh;
   }
 
@@ -85,5 +85,11 @@ html {
 
   .header .header-text-4 {
     font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .header {
+    padding: 80px;
   }
 }

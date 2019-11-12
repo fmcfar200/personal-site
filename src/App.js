@@ -3,8 +3,8 @@ import AboutMe from "./components/aboutMe";
 import MyProjects from "./components/myProjects";
 import OtherProjects from "./components/otherProjects";
 import NavBar from "./components/navbar";
-import "./App.css";
 import MobileNavbar from "./components/mobileNavbar";
+import "./App.css";
 
 function App() {
   return (
