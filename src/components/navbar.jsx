@@ -3,7 +3,7 @@ import "../styles/navbar.css";
 
 const NavBar = () => {
   return (
-    <div className="nav-container">
+    <div className="nav-container largeScreen">
       <ul>
         <li>
           <a href="#other_projects_section">

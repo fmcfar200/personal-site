@@ -37,5 +37,31 @@ li a:hover {
   border-bottom: 2px solid var(--other-color2);
 }
 
+.mobile {
+  background-color: transparent;
+}
+
+.largeScreen {
+  display: none;
+}
+
+.menuButton {
+  font-size: xx-large;
+  color: white;
+
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
 @media only screen and (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+  .largeScreen {
+    display: block;
+  }
 }

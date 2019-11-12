@@ -4,10 +4,12 @@ import MyProjects from "./components/myProjects";
 import OtherProjects from "./components/otherProjects";
 import NavBar from "./components/navbar";
 import "./App.css";
+import MobileNavbar from "./components/mobileNavbar";
 
 function App() {
   return (
     <React.Fragment>
+      <MobileNavbar />
       <div className="header">
         <p className="header-text-1">Hello, I'm</p>
         <p className="header-text-2">Fraser McFarlane.</p>
