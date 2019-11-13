@@ -4,6 +4,9 @@
 }
 
 .contact_content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
   position: absolute;
   top: 25%;
   bottom: 0;
@@ -25,19 +28,26 @@
   color: var(--other-color2);
 }
 
+.contact_content h2 {
+  margin: 0;
+}
+
 .contact_content p {
+  max-width: 600px;
   font-size: 16px;
   color: white;
   margin-top: 30px;
   margin-bottom: 30px;
 
   text-align: center;
+  align-self: center;
 }
 
 .contact_button {
+  min-width: 8rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   color: var(--other-color2);
   font-weight: bold;
   text-decoration: none;
@@ -49,6 +59,10 @@
   background-color: transparent;
 
   cursor: pointer;
+
+  align-self: center;
+
+  margin: 30px 0 30px 0;
 }
 
 .contact_button span {
@@ -80,11 +94,11 @@
 
 .fa {
   padding: 20px;
-  font-size: 30px;
-  width: 50px;
+  font-size: 25px;
+  width: 25px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 5px 8px;
 }
 
 .fa:hover {
