@@ -31,7 +31,13 @@ const MyProjects = () => {
         <img src={imageSrc} />
         <div className="image-filter"></div>
         <div className="text-container right">
-          <h2>{title}</h2>
+          <div className="title-container">
+            <div>
+              <a className="fas fa-external-link-alt" />
+              <a className="fa fa-github" />
+            </div>
+            <h2>{title}</h2>
+          </div>
           <p>{desc}</p>
           <div className="code-label-container">{codeLabels}</div>
         </div>

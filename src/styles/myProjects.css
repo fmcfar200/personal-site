@@ -64,6 +64,23 @@
   border-radius: 10px;
 }
 
+.title-container > div {
+  margin: 8px 0px;
+  padding-right: 16px;
+}
+
+.title-container a {
+  font-size: 20px;
+  margin-left: 8px;
+}
+
+.title-container a:hover {
+  color: var(--other-color2);
+  transition: 0.5s ease all;
+
+  cursor: pointer;
+}
+
 .code-label-container {
   display: flex;
   flex-direction: row-reverse;
@@ -112,6 +129,15 @@
     background-color: var(--secondary-color);
   }
 
+  .title-container a {
+    font-size: 20px;
+    margin-left: 8px;
+  }
+
+  .title-container > div {
+    padding-right: 16px;
+  }
+
   .right {
     text-align: right;
     transform: translateX(-10%);
@@ -136,11 +162,29 @@
 
   .text-container h2 {
     font-size: 22px;
+    margin: 0;
   }
 
   .text-container p {
     font-size: 16px;
     background-color: var(--secondary-color);
+  }
+
+  .title-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    transform: translateX(10%);
+  }
+
+  .title-container > div {
+    padding-left: 8px;
+    align-self: center;
+  }
+
+  .title-container a {
+    font-size: 24px;
+    margin-left: 8px;
   }
 }
 
