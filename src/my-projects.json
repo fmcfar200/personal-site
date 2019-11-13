@@ -2,7 +2,7 @@
   {
     "title": "My-Fy",
     "desc": "A personal Spotify profile and playlist generator. See your top arists and tracks from the past month, 6 months or from all time. Create custom playlists based on these artists and tracks. You can also filter our reccomended playlists by specific audio features such as 'accounsticness' and tempo",
-    "imageSrc": "myfy-screenshot.png",
+    "imageSrc": "/myfy-screenshot.png",
     "codeArray": ["React.js", "Spotify Web API", "Node.js", "Express"],
     "githubLink": "https://github.com/fmcfar200/My-Fy",
     "secondaryLink": "http://www.myfymusic.com"
