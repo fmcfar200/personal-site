@@ -17,6 +17,26 @@ const ContactMe = () => {
           contact me about any opportunities or just to say hello!
         </p>
         <ContactButton />
+        <div className="social-container">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/fraser-mcfarlane-40b7bb106/"
+            className="fa fa-linkedin"
+          ></a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/fmcfar200"
+            className="fa fa-github"
+          ></a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/f_mcfarlane/"
+            className="fa fa-instagram"
+          ></a>
+        </div>
       </div>
     </div>
   );
