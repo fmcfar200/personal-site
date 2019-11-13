@@ -1,10 +1,12 @@
 import React from "react";
 import Scrollspy from "react-scrollspy";
+import ContactButton from "./contactButton";
 import "../styles/navbar.css";
 
 const NavBar = () => {
   return (
     <div className="nav-container largeScreen">
+      <ContactButton text="CV" />
       <Scrollspy
         items={[
           "contact_section",
