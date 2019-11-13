@@ -7,6 +7,7 @@ import MobileNavbar from "./components/mobileNavbar";
 import "./App.css";
 import Heading from "./components/heading";
 import ContactMe from "./components/contactMe";
+import ContactButton from "./components/contactButton";
 
 function App() {
   return (
@@ -18,10 +19,11 @@ function App() {
         <p className="header-text-3">
           I create software for the web, mobile devices and sometimes games
         </p>
-        <p className="header-text-4">
+        <p className="header-text-4" style={{ marginBottom: "30px" }}>
           I am a Software Developer based in Glasgow, Scotland currently focused
           on developing mobile/web applications.
         </p>
+        <ContactButton />
       </div>
       <NavBar />
       <main className="App">

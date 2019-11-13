@@ -1,6 +1,7 @@
 import React from "react";
 import Heading from "./heading";
 import "../styles/contactMe.css";
+import ContactButton from "./contactButton";
 
 const ContactMe = () => {
   return (
@@ -15,9 +16,7 @@ const ContactMe = () => {
           am also working as a freelance developer. So please feel free to
           contact me about any opportunities or just to say hello!
         </p>
-        <button className="contact_button">
-          <span>Contact Me</span>
-        </button>
+        <ContactButton />
       </div>
     </div>
   );
