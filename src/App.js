@@ -5,6 +5,8 @@ import OtherProjects from "./components/otherProjects";
 import NavBar from "./components/navbar";
 import MobileNavbar from "./components/mobileNavbar";
 import "./App.css";
+import Heading from "./components/heading";
+import ContactMe from "./components/contactMe";
 
 function App() {
   return (
@@ -26,6 +28,7 @@ function App() {
         <AboutMe />
         <MyProjects />
         <OtherProjects />
+        <ContactMe />
       </main>
     </React.Fragment>
   );

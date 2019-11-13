@@ -1,0 +1,72 @@
+.contact_container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.contact_content {
+  position: absolute;
+  top: 25%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 0 0;
+
+  color: var(--main-color);
+}
+
+.contact_content h4 {
+  font-size: 24px;
+  color: white;
+}
+
+.contact_content h4 > span {
+  color: var(--other-color2);
+}
+
+.contact_content p {
+  font-size: 16px;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  text-align: center;
+}
+
+.contact_button {
+  font-size: 18px;
+  color: var(--other-color2);
+  font-weight: 300;
+
+  padding: 16px 16px 16px 16px;
+  border-radius: 5px;
+
+  border: 2px solid var(--other-color2);
+  background-color: transparent;
+
+  cursor: pointer;
+}
+
+.contact_button span {
+  position: relative;
+  transition: 0.5s;
+}
+
+.contact_button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.contact_button:hover span {
+  padding-right: 16px;
+}
+
+.contact_button:hover span::after {
+  opacity: 1;
+  right: 0;
+}

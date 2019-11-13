@@ -7,7 +7,7 @@ const NavBar = () => {
     <div className="nav-container largeScreen">
       <Scrollspy
         items={[
-          "other_projects_section",
+          "contact_section",
           "other_projects_section",
           "my_projects_section",
           "about_me_section"
@@ -15,7 +15,7 @@ const NavBar = () => {
         currentClassName="active"
       >
         <li>
-          <a href="#other_projects_section">
+          <a href="#contact_section">
             <span>04. </span>Contact
           </a>
         </li>
