@@ -2,7 +2,7 @@
   {
     "title": "My-Fy",
     "desc": "A personal Spotify profile and playlist generator. See your top arists and tracks from the past month, 6 months or from all time. Create custom playlists based on these artists and tracks. You can also filter our reccomended playlists by specific audio features such as 'accounsticness' and tempo",
-    "imageSrc": "/myfy-screenshot.png",
+    "imageSrc": "myfy-screenshot.png",
     "codeArray": ["React.js", "Spotify Web API", "Node.js", "Express"],
     "githubLink": "https://github.com/fmcfar200/My-Fy",
     "secondaryLink": "http://www.myfymusic.com"
@@ -10,7 +10,7 @@
   {
     "title": "iDent App (Prototype)",
     "desc": "A IOS/Android app prototype developed for a local Glasgow business that trains Dental Health Nurses. Currently in development using the Xamarin Framework for mobile cross platform. Designed to be a shared learning space for students and educators.",
-    "imageSrc": "/ident.png",
+    "imageSrc": "ident.png",
     "codeArray": ["C#", "Xamarin IOS", "Xamarin Android", "Xamarin Forms"],
     "githubLink": "https://github.com/fmcfar200/My-Fy",
     "secondaryLink": "http://www.myfymusic.com"
@@ -18,7 +18,7 @@
   {
     "title": "Ultimate Companion App",
     "desc": "A second screen experience for the gaming sensation 'Fortnite'. Developed using a REST API that uses the in-game endpoints so all information is real time. This includes leaderboards, current items, news, player stats amd more. As of January 2019, the application had 1600 daily active users with 50,000+ downloads.",
-    "imageSrc": "/ufc.png",
+    "imageSrc": "ufc.png",
     "codeArray": [
       "Java/Swift",
       "Android Studio/Xcode",
@@ -31,7 +31,7 @@
   {
     "title": "Glasgow AR",
     "desc": "A mobile augmented reality game set in Glasgow City Centre where players can hunt and explore to find creatures hidden throughout the city. The augmented reality experience uses real-world objects and GPS locations to track the player to create an immersive and dynamic experience",
-    "imageSrc": "/AR.png",
+    "imageSrc": "AR.png",
     "codeArray": ["C#", "Unity3D", "Vuforia", "Mapbox SDK"],
     "githubLink": "https://github.com/fmcfar200/My-Fy",
     "secondaryLink": "http://www.myfymusic.com"
