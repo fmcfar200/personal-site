@@ -8,7 +8,7 @@
     "secondaryLink": "http://www.myfymusic.com"
   },
   {
-    "title": "iDent App (Prototype)",
+    "title": "iDent App",
     "desc": "A IOS/Android app prototype developed for a local Glasgow business that trains Dental Health Nurses. Currently in development using the Xamarin Framework for mobile cross platform. Designed to be a shared learning space for students and educators.",
     "imageSrc": "ident.png",
     "codeArray": ["C#", "Xamarin IOS", "Xamarin Android", "Xamarin Forms"],
@@ -16,7 +16,7 @@
     "secondaryLink": "http://www.myfymusic.com"
   },
   {
-    "title": "Ultimate Companion App",
+    "title": "Ultimate Companion",
     "desc": "A second screen experience for the gaming sensation 'Fortnite'. Developed using a REST API that uses the in-game endpoints so all information is real time. This includes leaderboards, current items, news, player stats amd more. As of January 2019, the application had 1600 daily active users with 50,000+ downloads.",
     "imageSrc": "ufc.png",
     "codeArray": [
