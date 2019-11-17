@@ -22,10 +22,7 @@ const OtherProjects = () => {
           <i className="fas fa-file-code"></i>
           <h4>{item.title}</h4>
         </div>
-
-        <div>
-          <p>{item.bodyText}</p>
-        </div>
+        <p>{item.bodyText}</p>
         <div className="code-container">
           <label>C#</label>
           <label>C++</label>
