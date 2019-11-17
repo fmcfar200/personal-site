@@ -21,7 +21,9 @@
   padding: 16px;
   margin: 10px;
   border-radius: 5px;
-  background-color: var(--secondary-color);
+
+  background-color: var(--tertiary-color);
+  border: 2px solid var(--other-color2);
 }
 
 .other-project-container:hover {

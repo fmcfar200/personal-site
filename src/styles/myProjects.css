@@ -33,7 +33,7 @@
   width: 100%;
   height: 100%;
   background-color: var(--other-color);
-  opacity: 0.6;
+  opacity: 0.75;
 }
 
 .text-container {
@@ -60,9 +60,10 @@
 }
 
 .text-container p {
-  font-size: 12;
+  font-size: 18px;
   padding: 16px;
-  background-color: rgba(1, 1, 1, 0.75);
+  margin-bottom: 0;
+  /* background-color: rgba(1, 1, 1, 0.75); */
 }
 
 .title-container > div {
@@ -71,8 +72,8 @@
 }
 
 .title-container a {
-  font-size: 20px;
-  margin-left: 8px;
+  font-size: 25px;
+  margin-left: 24px;
 }
 
 .title-container a:hover {
@@ -91,7 +92,7 @@
 .code-label-container label {
   padding: 4px;
   margin-left: 14px;
-  background-color: var(--other-color);
+  background-color: var(--tertiary-color);
   border-radius: 10px;
 
   flex-grow: 0;
@@ -130,6 +131,7 @@
     background-color: var(--secondary-color);
     border-radius: 10px;
     transform: translateX(-20px);
+    margin-bottom: 16px;
   }
 
   .title-container h2 {
@@ -155,6 +157,10 @@
 
   .code-label-container {
     padding-right: 20px;
+  }
+
+  .code-label-container label {
+    background-color: VAR(--other-color);
   }
 }
 

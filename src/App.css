@@ -24,6 +24,11 @@ html {
   scroll-behavior: smooth;
 }
 
+footer {
+  color: white;
+  text-align: center;
+}
+
 @media only screen and (min-width: 768px) {
   .App {
     padding: 80px;
