@@ -10,7 +10,7 @@
   {
     "title": "iDent App",
     "desc": "A IOS/Android app prototype developed for a local Glasgow business that trains Dental Health Nurses. Currently in development using the Xamarin Framework for mobile cross platform. Designed to be a shared learning space for students and educators.",
-    "imageSrc": "ident.png",
+    "imageSrc": "ident.jpg",
     "codeArray": ["C#", "Xamarin"],
     "githubLink": "https://github.com/fmcfar200/ident"
   },
