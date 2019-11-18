@@ -1,7 +1,7 @@
 [
   {
     "title": "Personal Website",
-    "bodyText": "This website that you are currently viewing.",
+    "bodyText": "This website that you are currently viewing. Created to showcase some of projects i have made over the years of being a software developer.",
     "technologyArray": ["HTML", "CSS", "JavaScript", "React.js"],
     "githubLink": "https://github.com/fmcfar200/personal-site",
     "secondaryLink": "http://frasermcfarlaneprojects.herokuapp.com/"
@@ -20,9 +20,23 @@
     "githubLink": "https://github.com/fmcfar200/Game-Engine-3/tree/master/Fraser%20McFarlane%20CW%202"
   },
   {
-    "title": "Other Project 4",
-    "bodyText": "duwhduwhdiuwhduiwhduiwhduwidhuwhduw",
+    "title": "Your Life",
+    "bodyText": "'Your Life' is a 3D mobile game created for a University development challange. The game was created for 'Includem', a youth support charity that helps young people transform their lives.",
     "technologyArray": ["C#", "REST"],
-    "githubLink": "the link"
+    "githubLink": "https://github.com/fmcfar200/Your-Life",
+    "secondaryLink": "https://frasermcfarlaneprojects.wordpress.com/your-life/"
+  },
+  {
+    "title": "Utility A.I Demo",
+    "bodyText": "A Unity3D demo that hosts a custom algorithm that implements Utility A.I or 'Utility Theory'. The theory that an A.I agents prefered outcome can be calculated in code to a real number. The higher the number, the more likely the agent will perform the assigned action.",
+    "technologyArray": ["C#", "Unity3D", "Utility Theory"],
+    "githubLink": "https://github.com/fmcfar200/Utility-A.I-Demo"
+  },
+  {
+    "title": "DragonFly.js",
+    "bodyText": "Mobile web game written in pure JavaScript. 'Flappy Bird' style game where the goal is to survive for as long as possible. A simple 2D side scrolling game created for a university coursework challenge.",
+    "technologyArray": ["JavaScript", "HTML/CSS"],
+    "githubLink": "https://github.com/fmcfar200/DragonFly-JS",
+    "secondaryLink": "https://fmcfar200.github.io/gameHTML.html"
   }
 ]
