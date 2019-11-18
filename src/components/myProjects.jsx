@@ -1,5 +1,6 @@
 import React from "react";
 import Heading from "./heading";
+import { renderSecondaryLink } from "./otherProjects";
 import "../styles/common.css";
 import "../styles/myProjects.css";
 // import "../styles/myProjectsSmall.css";
@@ -16,11 +17,20 @@ const MyProjects = () => {
       item.title,
       item.desc,
       item.imageSrc,
-      item.codeArray
+      item.codeArray,
+      item.githubLink,
+      item.secondaryLink
     );
   });
 
-  function renderProjectRight(title, desc, imageSrc, codeArray) {
+  function renderProjectRight(
+    title,
+    desc,
+    imageSrc,
+    codeArray,
+    githubLink,
+    secondaryLink
+  ) {
     var theCodeArray = codeArray.reverse();
     const codeLabels = theCodeArray.map(item => {
       return <label key={codeArray.indexOf(item)}>{item}</label>;
@@ -33,8 +43,10 @@ const MyProjects = () => {
         <div className="text-container right">
           <div className="title-container">
             <div>
-              <a className="fas fa-external-link-alt" />
-              <a className="fa fa-github" />
+              {renderSecondaryLink(secondaryLink)}
+              <a href={githubLink}>
+                <i className="fab fa-github" />
+              </a>
             </div>
             <h2>{title}</h2>
           </div>

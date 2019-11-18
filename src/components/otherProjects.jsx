@@ -3,22 +3,22 @@ import "../styles/common.css";
 import "../styles/otherProjects.css";
 import Heading from "./heading";
 
+export function renderSecondaryLink(url) {
+  if (url) {
+    return (
+      <a href={url}>
+        <i className="fas fa-external-link-alt"></i>
+      </a>
+    );
+  } else {
+    return null;
+  }
+}
+
 const OtherProjects = () => {
   function getData() {
     var obj = require("../other-projects.json");
     return JSON.parse(JSON.stringify(obj));
-  }
-
-  function renderSecondaryLink(url) {
-    if (url) {
-      return (
-        <a href={url}>
-          <i className="fas fa-external-link-alt"></i>
-        </a>
-      );
-    } else {
-      return null;
-    }
   }
 
   var myData = getData();
