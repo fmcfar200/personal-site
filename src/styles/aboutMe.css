@@ -3,8 +3,7 @@
   display: grid;
   grid-template-columns: 1fr;
   column-gap: 8px;
-  height: 100vh;
-  max-height: 100vh;
+  min-height: 100vh;
 }
 
 .headshot-image {
@@ -31,6 +30,32 @@
 .info-container p {
   color: white;
   text-align: start;
+}
+
+.info-container p > span {
+  color: var(--other-color2);
+  font-weight: bold;
+}
+
+.tech-list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  color: white;
+  padding: 0;
+}
+
+.tech-item {
+  position: relative;
+}
+.tech-item::before {
+  content: "\2666";
+
+  position: absolute;
+  left: 0;
+
+  color: var(--other-color2);
 }
 
 @media only screen and (min-width: 768px) {
