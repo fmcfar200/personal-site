@@ -9,8 +9,25 @@ const OtherProjects = () => {
     return JSON.parse(JSON.stringify(obj));
   }
 
+  function renderSecondaryLink(url) {
+    if (url) {
+      return (
+        <a href={url}>
+          <i className="fas fa-external-link-alt"></i>
+        </a>
+      );
+    } else {
+      return null;
+    }
+  }
+
   var myData = getData();
   const projectCards = myData.map(item => {
+    const codeLabels = item.technologyArray.map(techItem => {
+      return (
+        <label key={item.technologyArray.indexOf(techItem)}>{techItem}</label>
+      );
+    });
     return (
       <div id="other_projects_section" className="other-project-container">
         <div
@@ -23,14 +40,12 @@ const OtherProjects = () => {
           <h4>{item.title}</h4>
         </div>
         <p>{item.bodyText}</p>
-        <div className="code-container">
-          <label>C#</label>
-          <label>C++</label>
-          <label>C</label>
-          <label>REST API</label>
-        </div>
+        <div className="code-container">{codeLabels}</div>
         <div className="link-container">
-          <i className="fab fa-github"></i>
+          <a href={item.githubLink}>
+            <i className="fab fa-github"></i>
+          </a>
+          {renderSecondaryLink(item.secondaryLink)}
         </div>
       </div>
     );

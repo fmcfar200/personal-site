@@ -28,7 +28,7 @@
   },
   {
     "title": "Utility A.I Demo",
-    "bodyText": "A Unity3D demo that hosts a custom algorithm that implements Utility A.I or 'Utility Theory'. The theory that an A.I agents prefered outcome can be calculated in code to a real number. The higher the number, the more likely the agent will perform the assigned action.",
+    "bodyText": "A Unity3D demo that hosts a custom algorithm that implements Utility A.I or 'Utility Theory'. The theory that an A.I agents prefered outcome can be calculated in code to a real number.",
     "technologyArray": ["C#", "Unity3D", "Utility Theory"],
     "githubLink": "https://github.com/fmcfar200/Utility-A.I-Demo"
   },
@@ -36,7 +36,7 @@
     "title": "DragonFly.js",
     "bodyText": "Mobile web game written in pure JavaScript. 'Flappy Bird' style game where the goal is to survive for as long as possible. A simple 2D side scrolling game created for a university coursework challenge.",
     "technologyArray": ["JavaScript", "HTML/CSS"],
-    "githubLink": "https://github.com/fmcfar200/DragonFly-JS",
+    "githubLink": "https://github.com/fmcfar200/Dragon-Fly-JS",
     "secondaryLink": "https://fmcfar200.github.io/gameHTML.html"
   }
 ]

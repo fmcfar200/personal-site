@@ -36,6 +36,7 @@
 
 .code-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .code-container label {
@@ -53,7 +54,16 @@
   right: 0;
 }
 
+.link-container a:first-child {
+  margin-left: 16px;
+}
+
+.link-container a {
+  color: white;
+}
+
 .link-container i {
+  color: white;
   font-size: 24px;
 }
 
