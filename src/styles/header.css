@@ -13,10 +13,10 @@
   flex-direction: column;
   justify-content: space-evenly;
 
-  -webkit-animation: fadeIn 1.75s 1 0s ease-in;
-  -moz-animation: fadeIn 1.75s 1 0s ease-in;
-  -o-animation: fadeIn 1.75s 1 0s ease-in;
-  animation: fadeIn 1.75s 1 0s ease-in;
+  -webkit-animation: fadeIn 0.75s 1 0s ease-in;
+  -moz-animation: fadeIn 0.75s 1 0s ease-in;
+  -o-animation: fadeIn 0.75s 1 0s ease-in;
+  animation: fadeIn 0.75s 1 0s ease-in;
 }
 
 .header .header-text-1 {

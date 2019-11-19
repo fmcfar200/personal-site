@@ -5,12 +5,13 @@ import "../styles/navOverlay.css";
 const MobileNavbar = () => {
   function openNav() {
     document.getElementById("myNav").style.width = "100%";
-    document.getElementById("menuButton").style.opacity = "0%";
+    document.getElementById("menuButton").classList.add("fade-out-trans");
   }
   function closeNav() {
     document.getElementById("myNav").style.width = "0%";
-    document.getElementById("menuButton").style.opacity = "100%";
+    document.getElementById("menuButton").classList.remove("fade-out-trans");
   }
+
   return (
     <React.Fragment>
       <div id="myNav" className="overlay">
