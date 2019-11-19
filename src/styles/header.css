@@ -11,6 +11,7 @@
 .header > div {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
 
   -webkit-animation: fadeIn 1.75s 1 0s ease-in;
   -moz-animation: fadeIn 1.75s 1 0s ease-in;
@@ -22,7 +23,7 @@
   font-size: 18px;
   font-weight: bold;
   color: var(--main-color);
-  margin-top: 0;
+  margin: 0;
 }
 
 .header .header-text-2 {
@@ -52,6 +53,8 @@
   width: 6rem;
   align-self: flex-start;
   text-align: center;
+
+  margin-top: 0;
 }
 
 @-webkit-keyframes fadeIn {
