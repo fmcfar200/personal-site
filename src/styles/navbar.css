@@ -5,7 +5,8 @@
   z-index: 99;
   background-color: var(--tertiary-color);
 
-  padding: 12px;
+  height: 75px;
+  padding: 0 50px;
 
   justify-content: space-between;
 }
@@ -34,6 +35,8 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
+
+  align-self: center;
 }
 
 .nav-container ul > li {
