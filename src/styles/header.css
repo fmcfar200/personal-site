@@ -8,6 +8,16 @@
   background-color: var(--other-color);
 }
 
+.header > div {
+  display: flex;
+  flex-direction: column;
+
+  -webkit-animation: fadeIn 1.75s 1 0s ease-in;
+  -moz-animation: fadeIn 1.75s 1 0s ease-in;
+  -o-animation: fadeIn 1.75s 1 0s ease-in;
+  animation: fadeIn 1.75s 1 0s ease-in;
+}
+
 .header .header-text-1 {
   font-size: 18px;
   font-weight: bold;
@@ -42,6 +52,50 @@
   width: 6rem;
   align-self: flex-start;
   text-align: center;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-20%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-20%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-20%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-20%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 @media only screen and (min-width: 768px) {

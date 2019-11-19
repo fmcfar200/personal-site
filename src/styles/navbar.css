@@ -21,6 +21,12 @@
 
   align-self: center;
   text-align: center;
+
+  opacity: 0;
+  -webkit-animation: fadeDown 1s 1.75s ease-in forwards;
+  -moz-animation: fadeDown 1s 1.75s ease-in forwards;
+  -o-animation: fadeDown 1s 1.75s ease-in forwards;
+  animation: fadeDown 1s 1.75s ease-in forwards;
 }
 
 .nav-container ul {
@@ -62,6 +68,11 @@ li a:hover {
   display: none;
 }
 
+.largeScreen ul li {
+  opacity: 0;
+  animation: fadeDown 0.75s ease-in forwards;
+}
+
 .menuButton {
   font-size: xx-large;
   color: white;
@@ -71,6 +82,15 @@ li a:hover {
   outline: none;
   cursor: pointer;
 
+  opacity: 0;
+  -webkit-animation: fadeDown 1s 1s ease-in forwards;
+  -moz-animation: fadeDown 1s 1s ease-in forwards;
+  -o-animation: fadeDown 1s 1s ease-in forwards;
+  animation: fadeDown 1s 1s ease-in forwards;
+
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -81,4 +101,73 @@ li a:hover {
   .largeScreen {
     display: flex;
   }
+}
+
+@-webkit-keyframes fadeDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@-moz-keyframes fadeDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@-o-keyframes fadeDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.largeScreen ul > li:nth-child(4) {
+  -webkit-animation-delay: 2.25s;
+  -moz-animation-delay: 2.25s;
+  -o-animation-delay: 2.25s;
+  animation-delay: 2.25s;
+}
+.largeScreen ul > li:nth-child(3) {
+  -webkit-animation-delay: 2.75s;
+  -moz-animation-delay: 2.75s;
+  -o-animation-delay: 2.75s;
+  animation-delay: 2.75s;
+}
+.largeScreen ul > li:nth-child(2) {
+  -webkit-animation-delay: 3.25s;
+  -moz-animation-delay: 3.25s;
+  -o-animation-delay: 3.25s;
+  animation-delay: 3.25s;
+}
+.largeScreen ul > li:nth-child(1) {
+  -webkit-animation-delay: 3.75s;
+  -moz-animation-delay: 3.75s;
+  -o-animation-delay: 3.75s;
+  animation-delay: 3.75s;
 }
