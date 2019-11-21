@@ -14,7 +14,7 @@
   align-content: center;
   justify-content: center;
 
-  margin: 100px 0;
+  margin: 75px 0;
 }
 
 .project-container img {
@@ -38,9 +38,6 @@
 
 .text-container {
   position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   top: 8px;
   left: 0;
   bottom: 8px;
@@ -48,6 +45,14 @@
   width: 100%;
   min-height: 95%;
   color: white;
+}
+
+.test1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
 }
 
 .right {
@@ -223,6 +228,39 @@
   }
 
   .text-container p {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1275px) {
+  .project-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .project-container img {
+    width: 90%;
+    max-width: 700px;
+    height: auto;
+    max-height: 400px;
+
+    justify-self: flex-end;
+  }
+
+  .text-container h2 {
+    font-size: 32px;
+  }
+  .text-container a {
+    font-size: 28px;
+  }
+  .text-container p {
+    font-size: 20px;
+  }
+
+  .test1 {
+    width: auto;
+    max-width: 700px;
+  }
+
+  .code-label-container label {
     font-size: 18px;
   }
 }
