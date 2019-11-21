@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/common.css";
 import "../styles/otherProjects.css";
 import Heading from "./heading";
+import ContactButton from "./contactButton";
 
 export function renderSecondaryLink(url) {
   if (url) {
@@ -54,6 +55,9 @@ const OtherProjects = () => {
     <div className="other-container">
       <Heading number="03" title="Some Other Projects" />
       <div className="projects-grid">{projectCards}</div>
+      <div className="more-button-container">
+        <ContactButton text="See More" link="https://github.com/fmcfar200" />
+      </div>
     </div>
   );
 };
