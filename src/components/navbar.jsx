@@ -6,7 +6,7 @@ import "../styles/navbar.css";
 const NavBar = () => {
   return (
     <div className="nav-container largeScreen">
-      <ContactButton text="CV" />
+      <ContactButton text="CV" link="/FRASER MCFARLANE CV.pdf" />
       <Scrollspy
         items={[
           "contact_section",
