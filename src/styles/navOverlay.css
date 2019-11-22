@@ -2,7 +2,7 @@
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 100;
   top: 0;
   right: 0;
   background-color: rgb(0, 0, 0);
@@ -19,7 +19,7 @@
   margin-top: 30px;
 }
 
-.overlay a {
+.overlay .page-link {
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
@@ -28,7 +28,7 @@
   transition: 0.3s;
 }
 
-.overlay a:hover,
+.overlay .overlay a:hover,
 .overlay a:focus {
   color: #f1f1f1;
   text-decoration-line: underline;
@@ -40,6 +40,18 @@
   top: 20px;
   right: 45px;
   font-size: 60px;
+  color: var(--other-color2);
+  text-decoration: none;
+}
+
+.overlay-content .social-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.overlay-content .social-container a {
+  text-decoration: none;
 }
 
 @media screen and (max-height: 450px) {

@@ -82,6 +82,7 @@ li a:hover {
 }
 
 .menuButton {
+  position: relative;
   font-size: xx-large;
   color: white;
 

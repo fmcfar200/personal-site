@@ -24,25 +24,63 @@ const MobileNavbar = () => {
           &times;
         </a>
         <div className="overlay-content">
-          <a href="#about_me_section" onClick={() => closeNav()}>
+          <a
+            className="page-link"
+            href="#about_me_section"
+            onClick={() => closeNav()}
+          >
             About Me
           </a>
-          <a href="#my_projects_section" onClick={() => closeNav()}>
+          <a
+            className="page-link"
+            href="#my_projects_section"
+            onClick={() => closeNav()}
+          >
             My Projects
           </a>
-          <a href="#other_projects_section" onClick={() => closeNav()}>
+          <a
+            className="page-link"
+            href="#other_projects_section"
+            onClick={() => closeNav()}
+          >
             Other Work
           </a>
-          <a href="#contact_section" onClick={() => closeNav()}>
+          <a
+            className="page-link"
+            href="#contact_section"
+            onClick={() => closeNav()}
+          >
             Contact Me
           </a>
           <a
+            className="page-link"
             href="/FRASER MCFARLANE CV.pdf"
             target="_blank"
             onClick={() => closeNav()}
           >
             CV
           </a>
+          <div className="social-container">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/fraser-mcfarlane-40b7bb106/"
+              className="fa fa-linkedin"
+            ></a>
+
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/fmcfar200"
+              className="fa fa-github"
+            ></a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.instagram.com/f_mcfarlane/"
+              className="fa fa-instagram"
+            ></a>
+          </div>
         </div>
       </div>
 
