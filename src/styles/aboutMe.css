@@ -7,11 +7,19 @@
 }
 
 .headshot-image {
+  position: relative;
   justify-self: center;
   align-self: flex-end;
   width: 250px;
   height: auto;
   border-radius: 50%;
+  border: 5px solid var(--other-color2);
+  cursor: pointer;
+  transition: 0.25s ease-in;
+}
+
+.headshot-image:hover {
+  filter: contrast(50%) sepia(50%);
 }
 
 .line {

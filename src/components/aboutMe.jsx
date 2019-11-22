@@ -6,7 +6,12 @@ import Heading from "./heading";
 const AboutMe = () => {
   return (
     <div id="about_me_section" className="about-container">
-      <img className="headshot-image" src="headshot.jpg" alt="headshot"></img>
+      <img
+        className="headshot-image"
+        src="headshot.jpg"
+        alt="headshot"
+        onClick={() => window.open("https://github.com/fmcfar200")}
+      ></img>
       <div className="info-container">
         <Heading number="01" title="About Me" />
         <p>
