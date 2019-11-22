@@ -27,6 +27,12 @@ const ContactMe = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
+            href="/FRASER MCFARLANE CV.pdf"
+            className="fa fa-address-book"
+          ></a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
             href="https://github.com/fmcfar200"
             className="fa fa-github"
           ></a>

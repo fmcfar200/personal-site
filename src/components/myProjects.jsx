@@ -1,6 +1,7 @@
 import React from "react";
 import Heading from "./heading";
 import { renderSecondaryLink } from "./otherProjects";
+import Fade from "react-reveal/Fade";
 import "../styles/common.css";
 import "../styles/myProjects.css";
 // import "../styles/myProjectsSmall.css";
@@ -37,25 +38,27 @@ const MyProjects = () => {
     });
 
     return (
-      <div className="project-container">
-        <img src={imageSrc} />
-        <div className="image-filter"></div>
-        <div className="text-container right">
-          <div className="test1">
-            <div className="title-container">
-              <div>
-                {renderSecondaryLink(secondaryLink)}
-                <a href={githubLink}>
-                  <i className="fab fa-github" />
-                </a>
+      <Fade bottom>
+        <div className="project-container">
+          <img src={imageSrc} />
+          <div className="image-filter"></div>
+          <div className="text-container right">
+            <div className="test1">
+              <div className="title-container">
+                <div>
+                  {renderSecondaryLink(secondaryLink)}
+                  <a href={githubLink}>
+                    <i className="fab fa-github" />
+                  </a>
+                </div>
+                <h2>{title}</h2>
               </div>
-              <h2>{title}</h2>
+              <p>{desc}</p>
+              <div className="code-label-container">{codeLabels}</div>
             </div>
-            <p>{desc}</p>
-            <div className="code-label-container">{codeLabels}</div>
           </div>
         </div>
-      </div>
+      </Fade>
     );
   }
 

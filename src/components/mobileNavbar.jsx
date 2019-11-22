@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/navbar.css";
 import "../styles/navOverlay.css";
+import ContactButton from "./contactButton";
 
 const MobileNavbar = () => {
   function openNav() {
@@ -32,8 +33,15 @@ const MobileNavbar = () => {
           <a href="#other_projects_section" onClick={() => closeNav()}>
             Other Work
           </a>
-          <a href="#" onClick={() => closeNav()}>
+          <a href="#contact_section" onClick={() => closeNav()}>
             Contact Me
+          </a>
+          <a
+            href="/FRASER MCFARLANE CV.pdf"
+            target="_blank"
+            onClick={() => closeNav()}
+          >
+            CV
           </a>
         </div>
       </div>

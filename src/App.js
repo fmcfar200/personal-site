@@ -20,7 +20,10 @@ function App() {
         <OtherProjects />
         <ContactMe />
       </main>
-      <footer>Built By Fraser McFarlane</footer>
+      <footer>
+        Built By <br />
+        Fraser McFarlane
+      </footer>
     </React.Fragment>
   );
 }
