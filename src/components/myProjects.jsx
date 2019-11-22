@@ -47,7 +47,7 @@ const MyProjects = () => {
               <div className="title-container">
                 <div>
                   {renderSecondaryLink(secondaryLink)}
-                  <a href={githubLink}>
+                  <a href={githubLink} target="_blank">
                     <i className="fab fa-github" />
                   </a>
                 </div>

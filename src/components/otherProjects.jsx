@@ -8,7 +8,7 @@ import Fade from "react-reveal/Fade";
 export function renderSecondaryLink(url) {
   if (url) {
     return (
-      <a href={url}>
+      <a href={url} target="_blank">
         <i className="fas fa-external-link-alt"></i>
       </a>
     );
@@ -45,7 +45,7 @@ const OtherProjects = () => {
           <p>{item.bodyText}</p>
           <div className="code-container">{codeLabels}</div>
           <div className="link-container">
-            <a href={item.githubLink}>
+            <a href={item.githubLink} target="_blank">
               <i className="fab fa-github"></i>
             </a>
             {renderSecondaryLink(item.secondaryLink)}

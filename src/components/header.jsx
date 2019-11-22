@@ -10,6 +10,7 @@ const Header = () => {
         <p className="header-text-2">Fraser McFarlane.</p>
         <p className="header-text-3">
           I create software for the web, mobile devices and sometimes games
+          technology.
         </p>
         <p className="header-text-4" style={{ marginBottom: "30px" }}>
           I am a Software Developer based in Glasgow, Scotland currently focused
