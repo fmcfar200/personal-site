@@ -33,7 +33,7 @@ const AboutMe = () => {
           <li className="tech-item">Android Studio</li>
           <li className="tech-item">C#</li>
           <li className="tech-item">HTML\CSS</li>
-          <li className="tech-item"> JavaScript (ES6)</li>
+          <li className="tech-item"> JavaScript (ES6+)</li>
           <li className="tech-item">React.js</li>
         </ul>
       </div>

@@ -106,10 +106,6 @@
   margin: 5px;
 }
 
-.code-label-container label::after {
-  content: "/f17b";
-}
-
 @media only screen and (min-width: 600px) {
   .image-filter {
     display: none;
